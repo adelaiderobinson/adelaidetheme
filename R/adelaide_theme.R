@@ -1,18 +1,12 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
 
+#'
+#' adelaide_theme
+#'@description adds a blank theme to an existing ggplot
+#' @usage use w/ ggplot
+#'
+#'
+#'
+#' @examples ggplot(data = msleep, aes(x = sleep_total, y = sleep_rem)) +geom_point() + THEME_NAME()
 adelaide_theme <- function() {
   theme(
     panel.background = element_rect(fill = "white"),
